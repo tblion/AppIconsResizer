@@ -1,0 +1,12 @@
+\\Mac\Home\Documents\Visual Studio 2015\Projects\WIR\Wir.Service\obj\Debug\Wir.Service.csprojResolveAssemblyReference.cache
+\\Mac\Home\Documents\Visual Studio 2015\Projects\WIR\Wir.Service\bin\Debug\Wir.Service.dll
+\\Mac\Home\Documents\Visual Studio 2015\Projects\WIR\Wir.Service\bin\Debug\Wir.Service.pdb
+\\Mac\Home\Documents\Visual Studio 2015\Projects\WIR\Wir.Service\bin\Debug\ImageProcessor.dll
+\\Mac\Home\Documents\Visual Studio 2015\Projects\WIR\Wir.Service\bin\Debug\Wir.Commons.dll
+\\Mac\Home\Documents\Visual Studio 2015\Projects\WIR\Wir.Service\bin\Debug\WIR.Lib.dll
+\\Mac\Home\Documents\Visual Studio 2015\Projects\WIR\Wir.Service\bin\Debug\Ionic.Zip.dll
+\\Mac\Home\Documents\Visual Studio 2015\Projects\WIR\Wir.Service\bin\Debug\Wir.Commons.pdb
+\\Mac\Home\Documents\Visual Studio 2015\Projects\WIR\Wir.Service\bin\Debug\WIR.Lib.pdb
+\\Mac\Home\Documents\Visual Studio 2015\Projects\WIR\Wir.Service\bin\Debug\Ionic.Zip.xml
+\\Mac\Home\Documents\Visual Studio 2015\Projects\WIR\Wir.Service\obj\Debug\Wir.Service.dll
+\\Mac\Home\Documents\Visual Studio 2015\Projects\WIR\Wir.Service\obj\Debug\Wir.Service.pdb

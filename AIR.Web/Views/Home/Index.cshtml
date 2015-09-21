@@ -1,0 +1,186 @@
+﻿@using Syncfusion.JavaScript
+@using Syncfusion.MVC.EJ
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <!-- Scripts -->
+    <script src="/Scripts/jquery-2.1.4.min.js"></script>
+    <script src="/Scripts/jquery.easing-1.3.min.js"></script>
+    <script src="/Scripts/jquery.globalize.min.js"></script>
+    <script src="/Scripts/jquery.validate.min.js"></script>
+    <script src="/Scripts/jsrender.min.js"></script>
+    <script src="/Scripts/ej.web.all.min.js"></script>
+    <!-- CSS -->
+    <link href="/Css/default-theme/ej.web.all.min.css" rel="stylesheet"/>
+    <link href="/Css/Site.css" rel="stylesheet" />
+    
+
+    <meta name="viewport" content="width=device-width"/>
+    <title>Web Image Resizer</title>
+</head>
+<body>
+
+<div>
+
+    <div id="dishtab" style="width:550px">
+
+        <ul>
+
+            <li><span class="dish iOsImg"></span><a href="#iOStype">iOS</a></li>
+
+            <li><span class="dish androidImg"></span><a href="#androidtype">Android</a></li>
+
+            <li><span class="dish windowsImg"></span><a href="#windowstype">Windows</a></li>
+
+        </ul>
+
+        <div id="iOStype" style="background-color: #F5F5F5">
+
+            @Html.CheckBox("IosCheckBox") @Html.Label("Create iOS images")
+
+        </div>
+
+        <div id="androidtype" style="background-color: #F5F5F5">
+
+            @Html.CheckBox("AndroidCheckBox") @Html.Label("Create Android images")
+        </div>
+
+        <div id="windowstype" style="background-color: #F5F5F5">
+
+            @Html.CheckBox("WindowsCheckBox") @Html.Label("Create Windows images")
+        </div>
+
+        @Html.EJ().Tab("dishtab").ShowRoundedCorner(true)
+
+    </div>
+    <div id="CheckedTextArea"></div>
+
+    @Html.EJ().Uploadbox("UploadDefault").SaveUrl(@Url.Action("SaveDefault","Home")).RemoveUrl(@Url.Action("RemoveDefault","Home")).MultipleFilesSelection(true).ClientSideEvents(e => e.Create("uploadload").FileSelect("fileselect").Begin("fileuploadbegin").Cancel("fileuploadcancel").Complete("fileuploadcomplete").Remove("fileuploadremove").Error("fileuploaderror").Destroy("uploadDestroy"))
+    @Html.EJ().Button("DownloadButton").Text("Download").ClientSideEvents(e => e.Click("DownloadFiles")).Enabled(false).Type(ButtonType.Submit)
+
+</div>
+    
+    @Html.EJ().ScriptManager()
+
+<script>
+
+    var fileCounter = 0;
+
+    function DownloadFiles() {
+        var zipserviceURL = "@Url.Action("GetZipFile", "Home")";
+
+        // Maybe ugly code
+        window.location.href = zipserviceURL;
+        
+    }
+
+    function enableOrDisableDownloadButton() {
+        var btnobject1 = $("#DownloadButton").data("ejButton");
+
+        if (fileCounter > 0) {
+            btnobject1.enable();
+        } else {
+            btnobject1.disable();
+        }
+    }
+
+    function uploadload(e, ui) {
+
+    }
+    function fileselect(e, ui) {
+
+    }
+    function fileuploadbegin(e, ui) {
+
+    }
+    function fileuploadcancel(e, ui) {
+
+    }
+    function fileuploadcomplete(e, ui) {
+        fileCounter++;
+        enableOrDisableDownloadButton();
+
+    }
+    function fileuploadremove(e, ui) {
+        fileCounter--;
+        enableOrDisableDownloadButton();
+    }
+    function fileuploaderror(e, ui) {
+
+    }
+    function uploadDestroy(e, ui) {
+
+    }
+
+
+    var countChecked = function () {
+
+        function successFunc(data, status) {
+            // alert(data);
+            $("#CheckedTextArea").text("You selected : ");
+            if (data[0]) {
+                $("#CheckedTextArea").append('iOS ');
+            }
+
+            if (data[1]) {
+                $("#CheckedTextArea").append('Android ');
+            }
+
+            if (data[2]) {
+                $("#CheckedTextArea").append('Windows ');
+            }
+
+        }
+
+        function errorFunc() {
+            alert('error');
+        }
+
+        // iOS
+        var isIosExport = false;
+        if ($('input[name=IosCheckBox]:checked')[0] != undefined) {
+            isIosExport = true;
+        }
+
+
+
+        // Android
+
+        var isAndroidExport = false;
+        if ($('input[name=AndroidCheckBox]:checked')[0] != undefined) {
+            isAndroidExport = true;
+        }
+        // Windows
+
+        var isWindowsExport = false;
+        if ($('input[name=WindowsCheckBox]:checked')[0] != undefined) {
+            isWindowsExport = true;
+        }
+
+        var serviceURL = "@Url.Action("SetSession","Home")";
+
+        $.ajax({
+            type: "POST",
+            url: serviceURL,
+            data: "{ isIosExport: "+isIosExport+", isAndroidExport:"+isAndroidExport+",isWindowsExport:"+isWindowsExport+" }",
+            contentType: "application/json; charset=utf-8",
+            dataType: "json"      ,
+            success: successFunc,
+            error: errorFunc
+        });
+
+
+    };
+
+
+
+    $("input[type=checkbox]").on("click", countChecked);
+
+</script>
+</body>
+</html>

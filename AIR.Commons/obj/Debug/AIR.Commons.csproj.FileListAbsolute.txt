@@ -1,0 +1,13 @@
+\\Mac\Home\Documents\Visual Studio 2015\Projects\WIR\Wir.Commons\obj\Debug\AIR.Commons.csproj.GenerateResource.Cache
+\\Mac\Home\Documents\Visual Studio 2015\Projects\WIR\Wir.Commons\bin\Debug\AIR.Commons.dll
+\\Mac\Home\Documents\Visual Studio 2015\Projects\WIR\Wir.Commons\bin\Debug\AIR.Commons.pdb
+\\Mac\Home\Documents\Visual Studio 2015\Projects\WIR\Wir.Commons\obj\Debug\AIR.Commons.AIRResources.resources
+\\Mac\Home\Documents\Visual Studio 2015\Projects\WIR\Wir.Commons\obj\Debug\AIR.Commons.dll
+\\Mac\Home\Documents\Visual Studio 2015\Projects\WIR\Wir.Commons\obj\Debug\AIR.Commons.pdb
+\\Mac\Home\Documents\Visual Studio 2015\Projects\WIR\AIR.Commons\bin\Debug\AIR.Commons.dll
+\\Mac\Home\Documents\Visual Studio 2015\Projects\WIR\AIR.Commons\bin\Debug\AIR.Commons.pdb
+\\Mac\Home\Documents\Visual Studio 2015\Projects\WIR\AIR.Commons\obj\Debug\AIR.Commons.csprojResolveAssemblyReference.cache
+\\Mac\Home\Documents\Visual Studio 2015\Projects\WIR\AIR.Commons\obj\Debug\AIR.Commons.AIRResources.resources
+\\Mac\Home\Documents\Visual Studio 2015\Projects\WIR\AIR.Commons\obj\Debug\AIR.Commons.csproj.GenerateResource.Cache
+\\Mac\Home\Documents\Visual Studio 2015\Projects\WIR\AIR.Commons\obj\Debug\AIR.Commons.dll
+\\Mac\Home\Documents\Visual Studio 2015\Projects\WIR\AIR.Commons\obj\Debug\AIR.Commons.pdb

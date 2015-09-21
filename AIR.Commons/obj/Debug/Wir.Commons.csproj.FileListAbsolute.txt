@@ -1,0 +1,7 @@
+\\Mac\Home\Documents\Visual Studio 2015\Projects\WIR\Wir.Commons\bin\Debug\Wir.Commons.dll
+\\Mac\Home\Documents\Visual Studio 2015\Projects\WIR\Wir.Commons\bin\Debug\Wir.Commons.pdb
+\\Mac\Home\Documents\Visual Studio 2015\Projects\WIR\Wir.Commons\obj\Debug\Wir.Commons.dll
+\\Mac\Home\Documents\Visual Studio 2015\Projects\WIR\Wir.Commons\obj\Debug\Wir.Commons.pdb
+\\Mac\Home\Documents\Visual Studio 2015\Projects\WIR\Wir.Commons\obj\Debug\Wir.Commons.csprojResolveAssemblyReference.cache
+\\Mac\Home\Documents\Visual Studio 2015\Projects\WIR\Wir.Commons\obj\Debug\Wir.Commons.WirResources.resources
+\\Mac\Home\Documents\Visual Studio 2015\Projects\WIR\Wir.Commons\obj\Debug\Wir.Commons.csproj.GenerateResource.Cache
