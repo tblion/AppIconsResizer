@@ -3,13 +3,13 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 14
 VisualStudioVersion = 14.0.23107.0
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AIR.Lib", "WIR.Lib\AIR.Lib.csproj", "{66A03F6F-24FA-4E15-800F-9514E8F7D4C3}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AIR.Commons", "AIR.Commons\AIR.Commons.csproj", "{76230B6D-52E8-4312-B858-55FF19EE8CBE}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AIR.Service", "Wir.Service\AIR.Service.csproj", "{AF3EBA4E-023E-4D93-85E7-D7F7378B3D42}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AIR.Lib", "AIR.Lib\AIR.Lib.csproj", "{66A03F6F-24FA-4E15-800F-9514E8F7D4C3}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AIR.Commons", "Wir.Commons\AIR.Commons.csproj", "{76230B6D-52E8-4312-B858-55FF19EE8CBE}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AIR.Service", "AIR.Service\AIR.Service.csproj", "{AF3EBA4E-023E-4D93-85E7-D7F7378B3D42}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AIR.Web", "Wir.Web\AIR.Web.csproj", "{0937DE35-B850-40D4-9EFE-BBF103526B4D}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AIR.Web", "AIR.Web\AIR.Web.csproj", "{0937DE35-B850-40D4-9EFE-BBF103526B4D}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -17,6 +17,10 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{76230B6D-52E8-4312-B858-55FF19EE8CBE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{76230B6D-52E8-4312-B858-55FF19EE8CBE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{76230B6D-52E8-4312-B858-55FF19EE8CBE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{76230B6D-52E8-4312-B858-55FF19EE8CBE}.Release|Any CPU.Build.0 = Release|Any CPU
 		{66A03F6F-24FA-4E15-800F-9514E8F7D4C3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{66A03F6F-24FA-4E15-800F-9514E8F7D4C3}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{66A03F6F-24FA-4E15-800F-9514E8F7D4C3}.Release|Any CPU.ActiveCfg = Release|Any CPU
@@ -25,10 +29,6 @@ Global
 		{AF3EBA4E-023E-4D93-85E7-D7F7378B3D42}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{AF3EBA4E-023E-4D93-85E7-D7F7378B3D42}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{AF3EBA4E-023E-4D93-85E7-D7F7378B3D42}.Release|Any CPU.Build.0 = Release|Any CPU
-		{76230B6D-52E8-4312-B858-55FF19EE8CBE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{76230B6D-52E8-4312-B858-55FF19EE8CBE}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{76230B6D-52E8-4312-B858-55FF19EE8CBE}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{76230B6D-52E8-4312-B858-55FF19EE8CBE}.Release|Any CPU.Build.0 = Release|Any CPU
 		{0937DE35-B850-40D4-9EFE-BBF103526B4D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{0937DE35-B850-40D4-9EFE-BBF103526B4D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0937DE35-B850-40D4-9EFE-BBF103526B4D}.Release|Any CPU.ActiveCfg = Release|Any CPU
