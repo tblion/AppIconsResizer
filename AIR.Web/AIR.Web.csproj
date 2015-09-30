@@ -440,6 +440,8 @@
     <Content Include="json\iOs.json">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
+    <Content Include="json\Android.json" />
+    <Content Include="json\Windows.json" />
     <None Include="Scripts\jquery-2.1.4.intellisense.js">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
