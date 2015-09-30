@@ -40,6 +40,24 @@ namespace AIR.Web.Controllers
                         break;
                     }
 
+                    case Enums.PresetEnum.WindowsPhone:
+                        {
+                            using (var sr = new StreamReader(Server.MapPath("~/json/Windows.json")))
+                            {
+                                pp = JsonConvert.DeserializeObject<PlatformPreset>(sr.ReadToEnd());
+                            }
+                            break;
+                        }
+
+                    case Enums.PresetEnum.Android:
+                        {
+                            using (var sr = new StreamReader(Server.MapPath("~/json/Android.json")))
+                            {
+                                pp = JsonConvert.DeserializeObject<PlatformPreset>(sr.ReadToEnd());
+                            }
+                            break;
+                        }
+
                     default:
                     {
                         break;
