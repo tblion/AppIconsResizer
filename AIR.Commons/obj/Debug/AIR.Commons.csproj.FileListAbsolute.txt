@@ -11,3 +11,10 @@
 \\Mac\Home\Documents\Visual Studio 2015\Projects\WIR\AIR.Commons\obj\Debug\AIR.Commons.csproj.GenerateResource.Cache
 \\Mac\Home\Documents\Visual Studio 2015\Projects\WIR\AIR.Commons\obj\Debug\AIR.Commons.dll
 \\Mac\Home\Documents\Visual Studio 2015\Projects\WIR\AIR.Commons\obj\Debug\AIR.Commons.pdb
+\\Mac\Home\Documents\GitHubVisualStudio\appiconsresizer\AIR.Commons\bin\Debug\AIR.Commons.dll
+\\Mac\Home\Documents\GitHubVisualStudio\appiconsresizer\AIR.Commons\bin\Debug\AIR.Commons.pdb
+\\Mac\Home\Documents\GitHubVisualStudio\appiconsresizer\AIR.Commons\obj\Debug\AIR.Commons.AIRResources.resources
+\\Mac\Home\Documents\GitHubVisualStudio\appiconsresizer\AIR.Commons\obj\Debug\AIR.Commons.csproj.GenerateResource.Cache
+\\Mac\Home\Documents\GitHubVisualStudio\appiconsresizer\AIR.Commons\obj\Debug\AIR.Commons.dll
+\\Mac\Home\Documents\GitHubVisualStudio\appiconsresizer\AIR.Commons\obj\Debug\AIR.Commons.pdb
+\\Mac\Home\Documents\GitHubVisualStudio\appiconsresizer\AIR.Commons\obj\Debug\AIR.Commons.csprojResolveAssemblyReference.cache

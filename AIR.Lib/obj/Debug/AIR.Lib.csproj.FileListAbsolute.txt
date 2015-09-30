@@ -18,3 +18,13 @@
 \\Mac\Home\Documents\Visual Studio 2015\Projects\WIR\AIR.Lib\obj\Debug\AIR.Lib.csprojResolveAssemblyReference.cache
 \\Mac\Home\Documents\Visual Studio 2015\Projects\WIR\AIR.Lib\obj\Debug\AIR.Lib.dll
 \\Mac\Home\Documents\Visual Studio 2015\Projects\WIR\AIR.Lib\obj\Debug\AIR.Lib.pdb
+\\Mac\Home\Documents\GitHubVisualStudio\appiconsresizer\AIR.Lib\bin\Debug\AIR.Lib.dll
+\\Mac\Home\Documents\GitHubVisualStudio\appiconsresizer\AIR.Lib\bin\Debug\AIR.Lib.pdb
+\\Mac\Home\Documents\GitHubVisualStudio\appiconsresizer\AIR.Lib\bin\Debug\AIR.Commons.dll
+\\Mac\Home\Documents\GitHubVisualStudio\appiconsresizer\AIR.Lib\bin\Debug\ImageProcessor.dll
+\\Mac\Home\Documents\GitHubVisualStudio\appiconsresizer\AIR.Lib\bin\Debug\Ionic.Zip.dll
+\\Mac\Home\Documents\GitHubVisualStudio\appiconsresizer\AIR.Lib\bin\Debug\AIR.Commons.pdb
+\\Mac\Home\Documents\GitHubVisualStudio\appiconsresizer\AIR.Lib\bin\Debug\Ionic.Zip.xml
+\\Mac\Home\Documents\GitHubVisualStudio\appiconsresizer\AIR.Lib\obj\Debug\AIR.Lib.csprojResolveAssemblyReference.cache
+\\Mac\Home\Documents\GitHubVisualStudio\appiconsresizer\AIR.Lib\obj\Debug\AIR.Lib.dll
+\\Mac\Home\Documents\GitHubVisualStudio\appiconsresizer\AIR.Lib\obj\Debug\AIR.Lib.pdb

@@ -22,3 +22,15 @@
 \\Mac\Home\Documents\Visual Studio 2015\Projects\WIR\AIR.Service\obj\Debug\AIR.Service.csprojResolveAssemblyReference.cache
 \\Mac\Home\Documents\Visual Studio 2015\Projects\WIR\AIR.Service\obj\Debug\AIR.Service.dll
 \\Mac\Home\Documents\Visual Studio 2015\Projects\WIR\AIR.Service\obj\Debug\AIR.Service.pdb
+\\Mac\Home\Documents\GitHubVisualStudio\appiconsresizer\AIR.Service\bin\Debug\AIR.Service.dll
+\\Mac\Home\Documents\GitHubVisualStudio\appiconsresizer\AIR.Service\bin\Debug\AIR.Service.pdb
+\\Mac\Home\Documents\GitHubVisualStudio\appiconsresizer\AIR.Service\bin\Debug\AIR.Commons.dll
+\\Mac\Home\Documents\GitHubVisualStudio\appiconsresizer\AIR.Service\bin\Debug\AIR.Lib.dll
+\\Mac\Home\Documents\GitHubVisualStudio\appiconsresizer\AIR.Service\bin\Debug\ImageProcessor.dll
+\\Mac\Home\Documents\GitHubVisualStudio\appiconsresizer\AIR.Service\bin\Debug\Ionic.Zip.dll
+\\Mac\Home\Documents\GitHubVisualStudio\appiconsresizer\AIR.Service\bin\Debug\AIR.Commons.pdb
+\\Mac\Home\Documents\GitHubVisualStudio\appiconsresizer\AIR.Service\bin\Debug\AIR.Lib.pdb
+\\Mac\Home\Documents\GitHubVisualStudio\appiconsresizer\AIR.Service\bin\Debug\Ionic.Zip.xml
+\\Mac\Home\Documents\GitHubVisualStudio\appiconsresizer\AIR.Service\obj\Debug\AIR.Service.csprojResolveAssemblyReference.cache
+\\Mac\Home\Documents\GitHubVisualStudio\appiconsresizer\AIR.Service\obj\Debug\AIR.Service.dll
+\\Mac\Home\Documents\GitHubVisualStudio\appiconsresizer\AIR.Service\obj\Debug\AIR.Service.pdb
